@@ -1,0 +1,255 @@
+THE ELAND BUILDING CONSTRUCTION & CLEANING SERVICES
+BUSINESS INFORMATION (DISPLAY CLEARLY FOR TRUST)
+Business Name: The Eland Building Construction and Cleaning Services
+Owner: Christopher Nawu
+📞 Contact Number: 084 569 4531
+🌍 Service Area: South Africa (local focus; specify areas if needed)
+🌐 Preferred Domain:
+theelandbuildingconandcleaningserv.co.za
+
+PRIMARY PURPOSE OF THE WEBSITE
+This website is 100% focused on lead generation.
+
+The design must:
+
+Encourage calls and WhatsApp messages
+
+Clearly explain services
+
+Build trust with homeowners and shop owners
+
+Convert visitors into enquiries
+
+BRAND STYLE & COLOR PALETTE (CONSTRUCTION + CLEANING)
+Use a clean, professional, trustworthy look that works for both construction and cleaning.
+
+Recommended Colors
+Role
+
+Color
+
+HEX
+
+Primary
+
+Construction Blue
+
+#1E3A5F
+
+Accent
+
+Safety Orange
+
+#F39A1E
+
+Neutral
+
+Concrete Grey
+
+#E6E6E6
+
+Text
+
+Charcoal
+
+#2B2B2B
+
+Background
+
+White
+
+#FFFFFF
+
+CTA (WhatsApp)
+
+Green
+
+#25D366
+
+Typography
+
+Headings: Poppins / Montserrat
+
+Body: Inter / Roboto
+
+Buttons: Bold, high-contrast
+
+WEBSITE STRUCTURE (CONVERSION-FIRST)
+1 HOME PAGE
+Hero Section
+
+Background: construction / renovation / cleaning imagery
+
+Headline:
+
+Reliable Building, Renovations & Cleaning Services You Can Trust
+
+Sub-headline:
+
+Helping homeowners and businesses build, renovate, and maintain their properties.
+
+CTA Buttons:
+
+Call Now – 084 569 4531
+
+WhatsApp Us
+
+Key Sections
+
+Services Overview
+
+Why Choose The Eland
+
+Recent Work / Project Images
+
+Who We Help
+
+Strong Call-to-Action
+
+2 ABOUT US
+Include:
+
+Introduction of Christopher Nawu
+
+Experience in construction, renovations, and cleaning
+
+Focus on helping people building or renovating homes and shops
+
+Values: reliability, quality workmanship, affordability
+
+3 SERVICES PAGE
+Each service must be clearly listed with a short explanation and a CTA.
+
+Construction & Building
+New builds
+
+Brickwork
+
+Structural work
+
+Renovations
+Home renovations
+
+Shop renovations
+
+Extensions and upgrades
+
+Tiling
+Floor tiling
+
+Wall tiling
+
+Bathroom & kitchen tiling
+
+Cleaning Services
+Post-construction cleaning
+
+Residential cleaning
+
+Commercial/shop cleaning
+
+Each service section includes:
+
+Image
+
+Short description
+
+Button: Request a Quote
+
+4️⃣ GALLERY (VERY IMPORTANT FOR LEADS)
+Show:
+
+Building projects
+
+Renovation before & after
+
+Tiling work
+
+Cleaning results
+
+Image rules:
+
+High-quality stock or real photos
+
+WebP format
+
+Lazy-loaded
+
+SEO alt text
+
+5 CONTACT PAGE
+Must include:
+
+Phone number (click-to-call)
+
+WhatsApp button
+
+Simple contact form
+
+Short text:
+“Tell us what you’re building or renovating.”
+
+CTA: Get a Free Quote
+
+LEAD GENERATION FEATURES (NON-NEGOTIABLE)
+Sticky Call Now button (mobile)
+
+Sticky WhatsApp button
+
+Contact form above the fold
+
+CTA at the end of every page
+
+IMAGES & UI RULES
+Use high-quality construction & cleaning stock images
+
+Keep the layout clean
+
+Avoid clutter
+
+Make buttons obvious
+
+Focus on trust and clarity
+
+SEO & LOCAL VISIBILITY
+Include:
+
+LocalBusiness schema
+
+Service schema
+
+Organization schema
+
+SEO Keywords
+Building contractors
+
+Home renovations
+
+Tiling services
+
+Cleaning services
+
+Construction company near me
+
+PERFORMANCE REQUIREMENTS
+Mobile-first
+
+Load time < 1.5 seconds
+
+WebP images
+
+Minified CSS/JS
+
+Clean URLs
+
+SITEMAP STRUCTURE
+/
+ /about
+ /services
+ /services/construction
+ /services/renovations
+ /services/tiling
+ /services/cleaning
+ /gallery
+ /contact
+ /privacy-policy

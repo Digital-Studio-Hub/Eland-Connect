@@ -1,0 +1,166 @@
+**HOME PAGE **
+Hero Section
+Headline:
+Reliable Building, Renovation, Tiling & Cleaning Services
+
+Sub-headline:
+Helping homeowners and businesses build, renovate, and maintain their homes and shops with quality workmanship and professional service.
+
+Primary CTAs:
+📞 Call Now: 084 569 4531
+💬 WhatsApp Us for a Free Quote
+
+Who We Are
+The Eland Building Construction and Cleaning Services is a hands-on service business owned by Christopher Nawu, offering reliable construction, renovation, tiling, and cleaning solutions.
+
+We work with homeowners and shop owners who need trustworthy professionals to help them build, renovate, or clean their properties efficiently and affordably.
+
+Our Services
+Construction & Building
+
+Home & Shop Renovations
+
+Professional Tiling
+
+Residential & Commercial Cleaning
+
+👉 All services are tailored to your needs and budget.
+
+Why Choose The Eland
+✔ Reliable workmanship
+✔ Affordable pricing
+✔ Attention to detail
+✔ On-site supervision
+✔ Friendly, professional service
+✔ Focus on customer satisfaction
+
+Call to Action
+Planning a build or renovation?
+📞 Call us today or send a WhatsApp message to get started.
+
+ABOUT US PAGE
+About The Eland Building Construction & Cleaning Services
+The Eland Building Construction and Cleaning Services was established to help people who are building, renovating, or maintaining their homes and shops.
+
+Led by Christopher Nawu, the business focuses on delivering quality workmanship, honest communication, and dependable service across all projects — big or small.
+
+Our goal is simple: help our clients achieve safe, clean, and well-finished spaces.
+
+**SERVICES PAGE **
+Construction & Building
+We offer construction services for new builds, brickwork, and general structural work. Whether you are starting from scratch or improving an existing structure, we ensure strong foundations and quality results.
+
+✔ New builds
+✔ Brickwork
+✔ Structural work
+
+📞 Request a construction quote today.
+
+Renovations
+We help homeowners and shop owners upgrade and improve their spaces with professional renovation services.
+
+✔ Home renovations
+✔ Shop renovations
+✔ Extensions & upgrades
+
+📞 Let us help transform your space.
+
+Tiling Services
+Our tiling services add value, durability, and style to your property.
+
+✔ Floor tiling
+✔ Wall tiling
+✔ Bathroom & kitchen tiling
+
+📞 Get clean, professional tiling done right.
+
+Cleaning Services
+We provide reliable cleaning services for homes and businesses.
+
+✔ Post-construction cleaning
+✔ Residential cleaning
+✔ Commercial & shop cleaning
+
+📞 Book professional cleaning today.
+
+GALLERY PAGE
+Our Work
+Browse some of the construction, renovation, tiling, and cleaning work we do. Our gallery shows the quality and care we put into every project.
+
+**CONTACT PAGE **
+Contact The Eland Building Construction & Cleaning Services
+Ready to start building, renovating, or cleaning?
+
+📞 Phone: 084 569 4531
+💬 WhatsApp: 084 569 4531 Add a WhatsApp Float Button too.
+
+📍 Service Area: Local residential & commercial projects
+
+Get a Free Quote
+[Simple contact form]
+
+LOCAL SEO META CONTENT
+Meta Title
+The Eland Building Construction & Cleaning Services | Building & Renovations
+
+Meta Description
+Reliable construction, renovations, tiling, and cleaning services. Helping homeowners and businesses build and maintain their properties. Call The Eland Building Services today.
+
+FULL SITEMAP.XML (READY FOR GOOGLE)
+Upload as:
+/sitemap.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://theelandbuildingconandcleaningserv.co.za/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://theelandbuildingconandcleaningserv.co.za/about</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://theelandbuildingconandcleaningserv.co.za/services</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://theelandbuildingconandcleaningserv.co.za/services/construction</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://theelandbuildingconandcleaningserv.co.za/services/renovations</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://theelandbuildingconandcleaningserv.co.za/services/tiling</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://theelandbuildingconandcleaningserv.co.za/services/cleaning</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://theelandbuildingconandcleaningserv.co.za/gallery</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://theelandbuildingconandcleaningserv.co.za/contact</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://theelandbuildingconandcleaningserv.co.za/privacy-policy</loc>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>

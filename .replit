@@ -4,6 +4,7 @@ hidden = [".config", ".git", "generated-icon.png", "node_modules", "dist"]
 
 [nix]
 channel = "stable-24_05"
+packages = ["libwebp"]
 
 [[ports]]
 localPort = 5000
@@ -37,3 +38,10 @@ author = "agent"
 task = "shell.exec"
 args = "npm run dev"
 waitForPort = 5000
+
+[userenv]
+
+[userenv.shared]
+ZEPTOMAIL_TOKEN = "Zoho-enczapikey wSsVR612/hamXat8yTeoLrpqnF9TBVzyRE572lPwvXD4SqvDp8c9w0bHVAOjFKQZR29rHGdH8O5/nE8C2jUNjYsqww5VWiiF9mqRe1U4J3x17qnvhDzOXGhVlhqLJIMBwg5ummZjFc0h+g=="
+ADMIN_EMAIL = "info@theelandbuildingconandcleaningserv.co.za"
+SITE_URL = "https://theelandbuildingconandcleaningserv.co.za"

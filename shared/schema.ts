@@ -1,18 +1,34 @@
-import { sql } from "drizzle-orm";
-import { pgTable, text, varchar } from "drizzle-orm/pg-core";
-import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
-export const users = pgTable("users", {
-  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
-  username: text("username").notNull().unique(),
-  password: text("password").notNull(),
+export const contactFormSchema = z.object({
+  name: z.string().min(2, "Name must be at least 2 characters"),
+  email: z.string().email("Please enter a valid email address"),
+  phone: z.string().min(10, "Please enter a valid phone number"),
+  service: z.string().optional(),
+  message: z.string().min(10, "Please tell us more about your project"),
 });
 
-export const insertUserSchema = createInsertSchema(users).pick({
-  username: true,
-  password: true,
-});
+export type ContactFormData = z.infer<typeof contactFormSchema>;
 
-export type InsertUser = z.infer<typeof insertUserSchema>;
-export type User = typeof users.$inferSelect;
+export interface Service {
+  id: string;
+  title: string;
+  description: string;
+  features: string[];
+  image: string;
+  slug: string;
+}
+
+export interface GalleryImage {
+  id: string;
+  src: string;
+  alt: string;
+  category: string;
+}
+
+export interface Testimonial {
+  id: string;
+  name: string;
+  content: string;
+  rating: number;
+}

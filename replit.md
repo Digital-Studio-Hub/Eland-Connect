@@ -68,10 +68,17 @@ shared/
 - Mobile-first responsive design
 - Sticky Call and WhatsApp buttons on mobile
 - Floating WhatsApp button on desktop
-- Contact form with ZeptoMail integration
-- Image gallery with lightbox
+- Contact form with ZeptoMail integration (error handling surfaces failures to users)
+- Image gallery with lightbox and category filters
 - SEO optimized with LocalBusiness schema
 - Dynamic sitemap generation
+- All images optimized in WebP format for performance
+- Proper error handling for email delivery failures
+
+## Recent Changes (December 2024)
+- Converted all stock images to WebP format for improved performance
+- Enhanced email error handling to surface failures to users (returns 500 if both admin and user emails fail)
+- All pages tested and verified working: Home, About, Services (with sub-pages), Gallery, Contact, Privacy Policy
 
 ## Running the Project
 ```bash

@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Layout } from "@/components/layout/layout";
 
-import heroImage from "@assets/stock_images/construction_site_he_eb36d21f.webp";
+import heroImage from "@assets/modern_house_constru_db51e9bd_1767024770207.webp";
 import constructionImage from "@assets/stock_images/modern_house_constru_db51e9bd.webp";
 import renovationImage from "@assets/stock_images/home_renovation_inte_262edd13.webp";
 import tilingImage from "@assets/stock_images/professional_tiling__844d9eae.webp";

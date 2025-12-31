@@ -2,6 +2,7 @@ import { Link } from "wouter";
 import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 import logoWhite from "@assets/White_Logo_1767013773185.png";
 import lekkerBadge from "@assets/Badge_Level_1_1767012155779.png";
+import lekkerLogo from "@assets/lekkerlogo_1767164177201.png";
 
 const PHONE_NUMBER = "0845694531";
 const WHATSAPP_NUMBER = "27845694531";
@@ -43,11 +44,16 @@ export function Footer() {
               Reliable construction, renovations, tiling, and cleaning services. 
               Helping homeowners and businesses build and maintain their properties.
             </p>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-4">
+              <img
+                src={lekkerLogo}
+                alt="Lekker"
+                className="h-10 w-auto"
+              />
               <img
                 src={lekkerBadge}
                 alt="Certified by Lekker Network"
-                className="h-16 w-auto"
+                className="h-14 w-auto"
               />
             </div>
           </div>

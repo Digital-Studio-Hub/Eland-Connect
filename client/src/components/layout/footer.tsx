@@ -26,14 +26,14 @@ export function Footer() {
   const handleWhatsApp = () => {
     window.open(
       `https://wa.me/${WHATSAPP_NUMBER}?text=Hi, I'm interested in your building and cleaning services.`,
-      "_blank"
+      "_blank",
     );
   };
 
   return (
     <footer className="bg-[#1E3A5F] text-white">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           <div className="space-y-4">
             <img
               src={logoWhite}
@@ -41,21 +41,10 @@ export function Footer() {
               className="h-16 w-auto"
             />
             <p className="text-sm text-white/80 leading-relaxed">
-              Reliable construction, renovations, tiling, and cleaning services. 
-              Helping homeowners and businesses build and maintain their properties.
+              Reliable construction, renovations, tiling, and cleaning services.
+              Helping homeowners and businesses build and maintain their
+              properties.
             </p>
-            <div className="flex items-center gap-4">
-              <img
-                src={lekkerLogo}
-                alt="Lekker"
-                className="h-10 w-auto"
-              />
-              <img
-                src={lekkerBadge}
-                alt="Certified by Lekker Network"
-                className="h-14 w-auto"
-              />
-            </div>
           </div>
 
           <div>
@@ -131,16 +120,27 @@ export function Footer() {
               </li>
             </ul>
           </div>
+          <div className="flex flex-col items-center gap-4">
+            <img
+              src={lekkerBadge}
+              alt="Certified by Lekker Network"
+              className="h-24 w-auto"
+            />
+            <div className="flex item-center justify-center">
+              <img src={lekkerLogo} alt="Lekker" className="h-16 w-auto" />
+              <p className="text-xs text-white/60 text-center">
+                Powered by Lekker Network
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className="border-t border-white/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-white/60">
-            &copy; {new Date().getFullYear()} The Eland Building Construction & Cleaning Services. 
-            All rights reserved.
+            &copy; {new Date().getFullYear()} The Eland Building Construction &
+            Cleaning Services. All rights reserved.
           </p>
-          <p className="text-sm text-white/60">
-            Owner: Christopher Nawu
-          </p>
+          <p className="text-sm text-white/60">Owner: Christopher Nawu</p>
         </div>
       </div>
     </footer>

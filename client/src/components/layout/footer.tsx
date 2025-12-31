@@ -126,7 +126,7 @@ export function Footer() {
               alt="Certified by Lekker Network"
               className="h-24 w-auto"
             />
-            <div className="flex item-center justify-center">
+            <div className="flex flex-col item-center justify-center">
               <img src={lekkerLogo} alt="Lekker" className="h-16 w-auto" />
               <p className="text-xs text-white/60 text-center">
                 Powered by Lekker Network

@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Layout } from "@/components/layout/layout";
 
-import aboutImage from "@assets/stock_images/modern_house_constru_a41f512d.webp";
-import teamImage from "@assets/stock_images/home_renovation_inte_db069ffd.webp";
+import aboutImage from "@assets/1765016622105_1767173503174.webp";
+import teamImage from "@assets/IMG-20240405-WA0046_1767173503179.webp";
 import lekkerBadge from "@assets/Badge_Level_1_1767012155779.png";
 
 const PHONE_NUMBER = "0845694531";

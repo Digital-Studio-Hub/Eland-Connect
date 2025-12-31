@@ -4,10 +4,10 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Layout } from "@/components/layout/layout";
 
-import constructionImage from "@assets/stock_images/modern_house_constru_db51e9bd.webp";
-import renovationImage from "@assets/stock_images/home_renovation_inte_262edd13.webp";
-import tilingImage from "@assets/stock_images/professional_tiling__844d9eae.webp";
-import cleaningImage from "@assets/stock_images/professional_cleanin_cf048e92.webp";
+import constructionImage from "@assets/FB_IMG_1733162722713_1767173503176.webp";
+import renovationImage from "@assets/1720013400035_1767173503168.webp";
+import tilingImage from "@assets/FB_IMG_16612461359325917_1767173503177.webp";
+import cleaningImage from "@assets/FB_IMG_1733127550658_1767173503176.webp";
 
 const PHONE_NUMBER = "0845694531";
 const WHATSAPP_NUMBER = "27845694531";

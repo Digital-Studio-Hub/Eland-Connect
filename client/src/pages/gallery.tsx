@@ -4,42 +4,54 @@ import { Phone, MessageCircle, X, ChevronLeft, ChevronRight } from "lucide-react
 import { Button } from "@/components/ui/button";
 import { Layout } from "@/components/layout/layout";
 
-import img1 from "@assets/stock_images/modern_house_constru_db51e9bd.webp";
-import img2 from "@assets/stock_images/modern_house_constru_a41f512d.webp";
-import img3 from "@assets/stock_images/home_renovation_inte_262edd13.webp";
-import img4 from "@assets/stock_images/home_renovation_inte_db069ffd.webp";
-import img5 from "@assets/stock_images/professional_tiling__844d9eae.webp";
-import img6 from "@assets/stock_images/professional_tiling__1b92860b.webp";
-import img7 from "@assets/stock_images/professional_cleanin_cf048e92.webp";
-import img8 from "@assets/stock_images/professional_cleanin_d14a6c79.webp";
-import img9 from "@assets/stock_images/beautiful_finished_k_ce541184.webp";
-import img10 from "@assets/stock_images/beautiful_finished_k_96565583.webp";
-import img11 from "@assets/stock_images/modern_bathroom_tile_8d9c57ac.webp";
-import img12 from "@assets/stock_images/modern_bathroom_tile_18924e1f.webp";
-import img13 from "@assets/stock_images/exterior_house_paint_ab103317.webp";
-import img14 from "@assets/stock_images/office_building_comm_8008a607.webp";
+import img1 from "@assets/20250501_172240_1767173503168.webp";
+import img2 from "@assets/1720721021660_1767173503169.webp";
+import img3 from "@assets/1726148456276_1767173503173.webp";
+import img4 from "@assets/FB_IMG_1733162722713_1767173503176.webp";
+import img5 from "@assets/FB_IMG_1733162750411_1767173503177.webp";
+import img6 from "@assets/1765016622089_1767173503173.webp";
+import img7 from "@assets/1765016622105_1767173503174.webp";
+import img8 from "@assets/1765016622117_1767173503174.webp";
+import img9 from "@assets/IMG-20240405-WA0046_1767173503179.webp";
+import img10 from "@assets/1720013400035_1767173503168.webp";
+import img11 from "@assets/Screenshot_2024-12-18_100704_1767173503179.webp";
+import img12 from "@assets/1765016622379_1767173503175.webp";
+import img13 from "@assets/1720945794991_1767173503170.webp";
+import img14 from "@assets/FB_IMG_16612461359325917_1767173503177.webp";
+import img15 from "@assets/FB_IMG_16614108620128689_1767173503178.webp";
+import img16 from "@assets/FB_IMG_1733127550658_1767173503176.webp";
+import img17 from "@assets/1722867457714_1767173503170.webp";
+import img18 from "@assets/1722867464884_1767173503171.webp";
+import img19 from "@assets/1722867480111_1767173503171.webp";
+import img20 from "@assets/1722960435101_1767173503172.webp";
 
 const PHONE_NUMBER = "0845694531";
 const WHATSAPP_NUMBER = "27845694531";
 
 const galleryImages = [
-  { id: "1", src: img1, alt: "House construction project", category: "Construction" },
-  { id: "2", src: img2, alt: "Building site progress", category: "Construction" },
-  { id: "3", src: img3, alt: "Living room renovation", category: "Renovation" },
-  { id: "4", src: img4, alt: "Home interior remodel", category: "Renovation" },
-  { id: "5", src: img5, alt: "Professional floor tiling", category: "Tiling" },
-  { id: "6", src: img6, alt: "Ceramic tile installation", category: "Tiling" },
-  { id: "7", src: img7, alt: "Office cleaning service", category: "Cleaning" },
-  { id: "8", src: img8, alt: "Professional cleaning team", category: "Cleaning" },
-  { id: "9", src: img9, alt: "Modern kitchen renovation", category: "Renovation" },
-  { id: "10", src: img10, alt: "Kitchen remodel complete", category: "Renovation" },
-  { id: "11", src: img11, alt: "Luxury bathroom tiling", category: "Tiling" },
-  { id: "12", src: img12, alt: "Bathroom tile work", category: "Tiling" },
-  { id: "13", src: img13, alt: "Exterior house finishing", category: "Construction" },
-  { id: "14", src: img14, alt: "Commercial building renovation", category: "Renovation" },
+  { id: "1", src: img1, alt: "Commercial building construction with scaffolding", category: "Construction" },
+  { id: "2", src: img2, alt: "Worker on roof construction site", category: "Construction" },
+  { id: "3", src: img3, alt: "Brick wall construction in progress", category: "Construction" },
+  { id: "4", src: img4, alt: "Foundation laying for new house", category: "Construction" },
+  { id: "5", src: img5, alt: "Block wall building project", category: "Construction" },
+  { id: "6", src: img6, alt: "Residential house construction", category: "Construction" },
+  { id: "7", src: img7, alt: "New home building progress", category: "Construction" },
+  { id: "8", src: img8, alt: "House walls under construction", category: "Construction" },
+  { id: "9", src: img9, alt: "Bricklaying and masonry work", category: "Construction" },
+  { id: "10", src: img10, alt: "Deck and porch renovation", category: "Renovation" },
+  { id: "11", src: img11, alt: "Foundation and retaining wall work", category: "Renovation" },
+  { id: "12", src: img12, alt: "Foundation trenching for new build", category: "Construction" },
+  { id: "13", src: img13, alt: "Floor tiling in progress", category: "Tiling" },
+  { id: "14", src: img14, alt: "Room floor tiling installation", category: "Tiling" },
+  { id: "15", src: img15, alt: "Professional tile work", category: "Tiling" },
+  { id: "16", src: img16, alt: "Modern kitchen counter with tiles", category: "Tiling" },
+  { id: "17", src: img17, alt: "Paving stone installation", category: "Construction" },
+  { id: "18", src: img18, alt: "Completed paving work with roller", category: "Construction" },
+  { id: "19", src: img19, alt: "Curved kerb stone installation", category: "Construction" },
+  { id: "20", src: img20, alt: "Plumbing installation work", category: "Renovation" },
 ];
 
-const categories = ["All", "Construction", "Renovation", "Tiling", "Cleaning"];
+const categories = ["All", "Construction", "Renovation", "Tiling"];
 
 export default function Gallery() {
   const [selectedCategory, setSelectedCategory] = useState("All");

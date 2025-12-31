@@ -4,14 +4,14 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Layout } from "@/components/layout/layout";
 
-import heroImage from "@assets/modern_house_constru_db51e9bd_1767024770207.webp";
-import constructionImage from "@assets/stock_images/modern_house_constru_db51e9bd.webp";
-import renovationImage from "@assets/stock_images/home_renovation_inte_262edd13.webp";
-import tilingImage from "@assets/stock_images/professional_tiling__844d9eae.webp";
-import cleaningImage from "@assets/stock_images/professional_cleanin_cf048e92.webp";
-import galleryImage1 from "@assets/stock_images/beautiful_finished_k_ce541184.webp";
-import galleryImage2 from "@assets/stock_images/modern_bathroom_tile_8d9c57ac.webp";
-import galleryImage3 from "@assets/stock_images/exterior_house_paint_ab103317.webp";
+import heroImage from "@assets/20250501_172240_1767173503168.webp";
+import constructionImage from "@assets/FB_IMG_1733162722713_1767173503176.webp";
+import renovationImage from "@assets/1720013400035_1767173503168.webp";
+import tilingImage from "@assets/FB_IMG_16612461359325917_1767173503177.webp";
+import cleaningImage from "@assets/FB_IMG_1733127550658_1767173503176.webp";
+import galleryImage1 from "@assets/1726148456276_1767173503173.webp";
+import galleryImage2 from "@assets/1720945794991_1767173503170.webp";
+import galleryImage3 from "@assets/1722867457714_1767173503170.webp";
 
 const PHONE_NUMBER = "0845694531";
 const WHATSAPP_NUMBER = "27845694531";
@@ -57,9 +57,9 @@ const benefits = [
 ];
 
 const recentProjects = [
-  { image: galleryImage1, title: "Kitchen Renovation" },
-  { image: galleryImage2, title: "Bathroom Tiling" },
-  { image: galleryImage3, title: "Exterior Finishing" },
+  { image: galleryImage1, title: "Brick Wall Construction" },
+  { image: galleryImage2, title: "Floor Tiling" },
+  { image: galleryImage3, title: "Paving Work" },
 ];
 
 export default function Home() {

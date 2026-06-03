@@ -1,22 +1,45 @@
 import { type Express } from "express";
-import { createServer as createViteServer, createLogger } from "vite";
 import { type Server } from "http";
-import viteConfig from "../vite.config";
 import fs from "fs";
 import path from "path";
 import { nanoid } from "nanoid";
 
-const viteLogger = createLogger();
-
 export async function setupVite(server: Server, app: Express) {
+  const [{ createServer: createViteServer, createLogger }, { default: react }, { default: runtimeErrorOverlay }] = await Promise.all([
+    import("vite"),
+    import("@vitejs/plugin-react"),
+    import("@replit/vite-plugin-runtime-error-modal"),
+  ]);
+
+  const replitPlugins =
+    process.env.NODE_ENV !== "production" && process.env.REPL_ID !== undefined
+      ? await Promise.all([
+          import("@replit/vite-plugin-cartographer").then((m) => m.cartographer()),
+          import("@replit/vite-plugin-dev-banner").then((m) => m.devBanner()),
+        ])
+      : [];
+
+  const viteLogger = createLogger();
   const serverOptions = {
     middlewareMode: true,
     hmr: { server, path: "/vite-hmr" },
     allowedHosts: true as const,
+    fs: {
+      strict: true,
+      deny: ["**/.*"],
+    },
   };
 
   const vite = await createViteServer({
-    ...viteConfig,
+    plugins: [react(), runtimeErrorOverlay(), ...replitPlugins],
+    resolve: {
+      alias: {
+        "@": path.resolve(import.meta.dirname, "..", "client", "src"),
+        "@shared": path.resolve(import.meta.dirname, "..", "shared"),
+        "@assets": path.resolve(import.meta.dirname, "..", "attached_assets"),
+      },
+    },
+    root: path.resolve(import.meta.dirname, "..", "client"),
     configFile: false,
     customLogger: {
       ...viteLogger,
